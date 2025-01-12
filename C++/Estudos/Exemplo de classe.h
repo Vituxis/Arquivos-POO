@@ -10,7 +10,7 @@ class Tempo{
 //Membros publicos
   public:
    Tempo(); // Construtor - Serve para inicializar os membros de dados com valor default
-   Tempo(int, int, int); // Outro tipo de Construtor com valores iniciais já pré-definidos
+   Tempo(int, int, int); // Outro tipo de Construtor com valores iniciais passados pelos parâmetros
    void setTime(int, int, int);
    void imprimir();
    ~cTime(); // Destrutor - Destruirá o objeto 
